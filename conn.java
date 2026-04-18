@@ -12,7 +12,11 @@ public class conn {
         Connection con = null;
         try {
             con = DriverManager.getConnection(URL, USER, PASSWORD);
+<<<<<<< HEAD
             System.out.println("Connection established successfully!");
+=======
+            // System.out.println("Connection established successfully!");
+>>>>>>> 8d9a605e1cceac28d26606a594697cc482af27bb
         } catch (SQLException e) {
             System.err.println("Database connection failed: " + e.getMessage());
         }
